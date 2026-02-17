@@ -1,0 +1,18 @@
+/* styles.css - Ejemplo mínimo */
+
+:root{
+  --bg:#f7f7f7;
+  --card:#ffffff;
+  --accent:#0078d4;
+  --text:#222;
+}
+
+*{box-sizing:border-box}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;background:var(--bg);color:var(--text);margin:0;padding:1rem}
+header{background:var(--card);padding:1rem;border-radius:8px;margin-bottom:1rem;display:flex;align-items:center;justify-content:space-between}
+main{max-width:900px;margin:0 auto}
+section{background:var(--card);padding:1rem;border-radius:8px}
+footer{margin-top:1rem;text-align:center;color:#666}
+
+button{background:var(--accent);color:#fff;border:0;padding:.5rem 1rem;border-radius:6px;cursor:pointer}
+button:active{transform:translateY(1px)}
